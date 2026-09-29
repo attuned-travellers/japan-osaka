@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Osaka Travel Cards</title>
+  <link rel="stylesheet" href="assets/trip-cards.css" />
+</head>
+<body>
+  <!-- 화면은 assets/trip-cards.js 가 이 안에 그립니다 -->
+  <div id="trip-app"></div>
+
+  <footer class="wrap">
+    데이터 추가: <code>places/data/</code> 의 파일에 <code>Trip.add([...])</code> 로 항목을 넣으면 카드가 생깁니다.
+    새 데이터 파일을 만들었다면 아래 스크립트 목록에 한 줄 추가하세요.
+    운영시간·요금은 바뀔 수 있으니 방문 전 확인하세요.
+  </footer>
+
+  <!-- 1) 엔진 (항상 먼저) -->
+  <script src="assets/trip-cards.js"></script>
+  <!-- 2) 설정 -->
+  <script src="places/data/_config.js"></script>
+  <!-- 3) 데이터 파일 — 새 파일을 만들면 여기에 추가 -->
+  <script src="places/data/spots.js"></script>
+  <script src="places/data/night.js"></script>
+  <script src="places/data/food.js"></script>
+  <script src="places/data/cafe.js"></script>
+  <script src="places/data/shopping.js"></script>
+  <script src="places/data/daytrip.js"></script>
+</body>
+</html>
