@@ -25,6 +25,7 @@ Trip.config({
     daytrip:  { group: "spot", label: "근교",        emoji: "🚆", color: "#2b9348" },
     food:     { group: "food", label: "음식",        emoji: "🍜", color: "#f3a712" },
     cafe:     { group: "food", label: "카페·디저트", emoji: "🍰", color: "#c1666b" },
+    drink:    { group: "food", label: "위스키·술",   emoji: "🥃", color: "#a0522d" },
   },
 
   areas: {
@@ -41,6 +42,7 @@ Trip.config({
     "kyoto":        { label: "교토" },
     "nara":         { label: "나라" },
     "kobe":         { label: "고베" },
+    "yamazaki":     { label: "야마자키 (시마모토)" },
     "other":        { label: "기타" },
   },
 
